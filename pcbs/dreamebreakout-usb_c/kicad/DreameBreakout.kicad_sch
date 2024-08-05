@@ -1505,6 +1505,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 77.47) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2722902c-1a3f-4462-a849-d1f62488e405")
+	)
+	(wire
+		(pts
 			(xy 161.29 27.94) (xy 161.29 39.37)
 		)
 		(stroke
@@ -1768,6 +1778,28 @@
 		(uuid "3416e51a-4762-41cb-94ef-bdc3ec69dbed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 123.9098 75.0094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SoC_GND"
+		(shape input)
+		(at 168.91 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "347679d8-bb7b-4c73-83ce-c760a0f382a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.3618 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,6 +2905,76 @@
 			(project ""
 				(path "/ea31f51c-3f0e-4e37-9fd4-9e1b1b7d7784"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 168.91 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39701093-fa4d-47ea-a5b8-9b9b2e9dc9e9")
+		(property "Reference" "R2"
+			(at 166.37 93.9801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1kΩ±20%"
+			(at 166.37 91.4401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 164.592 93.599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a9a8899-d160-47c3-9f2f-e1ca12044c2c")
+		)
+		(pin "2"
+			(uuid "484c2db5-b394-4397-b845-3fdf591dc8f8")
+		)
+		(instances
+			(project "DreameBreakout"
+				(path "/ea31f51c-3f0e-4e37-9fd4-9e1b1b7d7784"
+					(reference "R2")
 					(unit 1)
 				)
 			)
