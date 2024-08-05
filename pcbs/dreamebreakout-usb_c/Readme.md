@@ -24,7 +24,7 @@ All the parts required should be available on Aliexpress or similar.
 - 1x 6x6mm tactile button
 - 1x USB-C port (Here GCT USB4145-03-0230-C)
 - 1x USB A port
-- 1x 5.1kΩ ±20% Resistor. This is neccessary so that the USB-C host device will provide power via VBus.
+- 2x 5.1kΩ ±20% Resistor. This is neccessary so that the USB-C host device will provide power via VBus.
 
 Optional (can also be done via a regular jumper wire using the larger headers):
 - 2x 2.00mm pitch 1x2P male header
