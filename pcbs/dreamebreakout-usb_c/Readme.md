@@ -1,13 +1,14 @@
-# Dreame Breakout
+# Dreame Breakout USB-C Version
 
-[<img src="./img/breakout.png" width=750>](./img/breakout.png)
+[<img src="./img/pcb-front.png" width=750>](./img/pcb-front.png)
+[<img src="./img/pcb-back.png" width=750>](./img/pcb-back.png)
 
 This breakout PCB takes the 2.0mm pitch 2x8P dreame debug header and breaks that out into a more usable form.
 
 Specifically it provides
 - All pins on two 2.54mm pitch headers for use with regular jumper wires etc
-- A micro USB socket for flashing stuff via FEL, Livesuit etc.
-- A ~~macro USB~~ USB A socket for USB OTG use
+- A USB-C socket for flashing stuff via FEL, Livesuit etc.
+- A USB A socket for USB OTG use
 - A button to pull BSel to GND to enter FEL
 - A jumper to enable USB OTG
 
@@ -21,8 +22,9 @@ All the parts required should be available on Aliexpress or similar.
 - 1x 2.00mm pitch 2x8P male header
 - 2x 2.54mm pitch 1x8P female header
 - 1x 6x6mm tactile button
-- 1x micro usb port
-- 1x usb a port
+- 1x USB-C port (Here GCT USB4145-03-0230-C)
+- 1x USB A port
+- 1x 5.1kΩ ±20% Resistor. This is neccessary so that the USB-C host device will provide power via VBus.
 
 Optional (can also be done via a regular jumper wire using the larger headers):
 - 2x 2.00mm pitch 1x2P male header
